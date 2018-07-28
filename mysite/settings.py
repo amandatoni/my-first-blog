@@ -25,8 +25,6 @@ SECRET_KEY = '%s34xd25prbnsc&4l@f(5_c3fv)pum=unagx(6tcgy9tuk9bub'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["amandatoni.pythonanywhere.com"]
-
 
 
 # Application definition
@@ -121,7 +119,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-ALLOWED_HOSTS = ['127.0.0.1', '<your_username>.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'amandatoni.pythonanywhere.com']
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
